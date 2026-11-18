@@ -1,0 +1,11 @@
+Model,Task,Validation score
+LogisticRegression,Classification,ROC-AUC 0.776 | Acc 0.869
+DecisionTree,Classification,ROC-AUC 0.738 | Acc 0.866
+RandomForest,Classification,ROC-AUC 0.761 | Acc 0.866
+XGBoost,Classification,ROC-AUC 0.774 | Acc 0.868
+LinearRegression,Regression (loan_amount),R2 0.861
+Ridge(alpha=10),Regression (loan_amount),R2 0.861
+Lasso(alpha=3),Regression (loan_amount),R2 0.856
+K-Means (k=2),Clustering,Silhouette 0.409
+XGBoost (tuned),Classification,ROC-AUC 0.778
+RandomForest (tuned),Classification,ROC-AUC 0.764
